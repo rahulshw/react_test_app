@@ -176,7 +176,7 @@ const renderLineChart = (
           <CartesianGrid strokeDasharray="3 3"/>
           <XAxis dataKey="date"/>
           <YAxis/>
-          <Tooltip content={CustomTooltip}/>
+          <Tooltip content={<CustomTooltip/>}/>
           <Line type='monotone' dataKey='attributed_revenue_in_usd' stroke='#82ca9d' fill='#82ca9d' />
           {/* <ReferenceLine x="2020-11-30 00:00:00+00" stroke="red"/> */}
           <Brush />
